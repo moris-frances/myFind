@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "func.h": "c",
+        "fnmatch.h": "c",
+        "getopt.h": "c",
+        "stdio.h": "c",
+        "stat.h": "c"
+    }
+}

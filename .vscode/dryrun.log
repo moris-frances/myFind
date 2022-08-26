@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/slasherer/moris/uni/Sem2/OS/myFind/src'
+gcc -D_DEFAULT_SOURCE -Wall -Wextra -pedantic -Wno-unused-parameter func.c main.c func.h -o myFind
+make: Leaving directory '/home/slasherer/moris/uni/Sem2/OS/myFind/src'
+ 
