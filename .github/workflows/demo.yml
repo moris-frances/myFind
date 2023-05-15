@@ -1,7 +1,7 @@
 name: compile and run a demo of the project
 run-name: ${{ github.actor }} is running the demo
 on:
-  repository_dispatch:
+  workflow_dispatch:
 jobs:
   demo:
     runs-on: ubuntu-latest
