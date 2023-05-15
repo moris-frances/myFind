@@ -5,4 +5,4 @@ jobs:
   make:
     runs-on: ubuntu-latest
     steps:
-      - run: make
+      - run: cd ../..; make
