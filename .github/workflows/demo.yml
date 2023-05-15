@@ -11,4 +11,4 @@ jobs:
       - name: Make the executable 
         run: make
       - name: Run a demo from the folder
-        run: ./myFind
+        run: echo running; ./myFind
