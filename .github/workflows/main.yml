@@ -7,4 +7,7 @@ jobs:
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v2 # Checkout the repository content to github runner.
-      - run: make
+      - name: Make the executable 
+        run: make
+      - name: Run a demo from the folder
+        run: ./myFind
