@@ -1,0 +1,14 @@
+name: compile and run a demo of the project
+run-name: ${{ github.actor }} is running the demo
+on:
+  repository_dispatch:
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2 # Checkout the repository content to github runner.
+      - name: Make the executable 
+        run: make
+      - name: Run a demo from the folder
+        run: ./myFind
