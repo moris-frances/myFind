@@ -1,0 +1,8 @@
+name: compile and run project
+run-name: ${{ github.actor }} is running the project
+on: [push]
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    steps:
+      - run: make
