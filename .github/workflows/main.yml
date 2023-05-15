@@ -5,4 +5,6 @@ jobs:
   make:
     runs-on: ubuntu-latest
     steps:
-      - run: cd ../..; make
+      - name: Checkout repository content
+        uses: actions/checkout@v2 # Checkout the repository content to github runner.
+      - run: make
