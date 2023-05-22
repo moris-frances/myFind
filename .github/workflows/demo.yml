@@ -1,4 +1,4 @@
-name: compile and run a demo of the project
+name: demo
 run-name: ${{ github.actor }} is running the demo
 on:
   workflow_dispatch:
