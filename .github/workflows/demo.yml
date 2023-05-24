@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 jobs:
   demo:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v2 # Checkout the repository content to github runner.
