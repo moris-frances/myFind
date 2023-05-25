@@ -10,5 +10,5 @@ jobs:
         uses: actions/checkout@v2 # Checkout the repository content to github runner.
       - name: Make the executable 
         run: make
-      - name: Run a demo from the folder
+      - name: Run a demo from the folder 
         run: echo running; ./myFind
